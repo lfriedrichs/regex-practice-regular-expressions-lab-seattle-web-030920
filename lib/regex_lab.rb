@@ -15,5 +15,5 @@ word.match(/aeiou/) ? true : false
 end
 
 def valid_phone_number?(phone)
-word.match(/aeiou/) ? true : false
+word.match(/[a-z]/) ? false : true
 end
