@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   array = text.split(' ')
-  array.select {|word| word.match(/^un.*ing$/) > 4}
+  array.select {|word| word.match(/^un.*ing$/)}
 end
 
 def words_five_letters_long(text)
