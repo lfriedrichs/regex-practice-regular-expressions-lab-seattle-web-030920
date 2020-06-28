@@ -9,7 +9,7 @@ end
 
 def words_five_letters_long(text)
   array = text.split(' ')
-  array.select {|word| word.size > 5}
+  array.select {|word| word.size > 4}
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
